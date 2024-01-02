@@ -5,4 +5,6 @@ export const vi = {
   [LocalizationKey.HOME]: "Trang chủ",
   [LocalizationKey.START]: "Bắt đầu",
   [LocalizationKey.LOADING]: "Đang tải",
+  [LocalizationKey.NEXT]: "Kế tiếp",
+  [LocalizationKey.SKIP]: "Bỏ qua",
 };
