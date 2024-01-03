@@ -20,14 +20,10 @@ export interface Company {
 }
 
 export interface User {
-  address: Address;
-  company: Company;
   email: string;
   id: number;
-  name: string;
-  phone: string;
   username: string;
-  website: string;
+  phone: string;
 }
 
 const userApi = API.injectEndpoints({

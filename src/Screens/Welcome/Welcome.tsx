@@ -129,7 +129,7 @@ export const Welcome = (props: {
             <View style={{height: 50}}>
               <TouchableOpacity
                 style={styles.btn}
-                onPress={() => props.onNavigate(RootScreens.MAIN)}>
+                onPress={() => props.onNavigate(RootScreens.LOGIN)}>
                 <Text style={{fontWeight: 'bold', fontSize: 15}}>
                 {i18n.t(LocalizationKey.START)}
                 </Text>
